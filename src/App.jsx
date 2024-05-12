@@ -6,11 +6,11 @@ import Home from './pages/homepage/Home'
 function App() {
   return (
     <div>
-      <Home/>
+      {/* <Home/> */}
       {/* <Tour/> */}
       {/* <Detail/> */}
       {/* <Booking/> */}
-      {/* <About/> */}
+      <About/>
 
 
     </div>

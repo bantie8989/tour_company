@@ -9,7 +9,6 @@ function About() {
       <Topbar />
       <ContactForms />
       <EmailSubscription />
-      {/* <Googlemap/> */}
 
       <Footer />
       {/* <SocialMedia/> */}
