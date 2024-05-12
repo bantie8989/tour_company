@@ -1,6 +1,4 @@
 .imageGallery {
-  margin-top: none;
-  margin-bottom: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,8 +13,15 @@
 }
 .image-info {
   position: relative;
-  margin-left: 50%;
-  background-color: white;
-  opacity: 2;
-  background: red; /* Add the desired background color here */
+  background-color: rgb(50, 47, 47);
+  background-position: left;
+  opacity: 0.5;
+  padding: 5px;
+  margin-right: 50%;
+}
+.featuredTours{
+  margin-top: 20px;
+  background-color:rgb(8, 49, 49);
+  
+  
 }
