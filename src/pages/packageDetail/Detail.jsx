@@ -1,10 +1,11 @@
+
 import Topbar from "../homepage/components/topbarComponent/Topbar"
 import PackageBooking from "../tourPackage/components/packageBookingComponent/PackageBooking"
 import PackageDetail from "../tourPackage/components/packageDetailComponent/PackageDetail"
 import PackageReviews from "../tourPackage/components/packageReviewComponent/PackageReview"
 import "./packageDetail.css"
 
-function packageDetail() {
+function Detail() {
   return (
     <div>
         <Topbar/>
@@ -17,4 +18,4 @@ function packageDetail() {
   )
 }
 
-export default packageDetail
+export default Detail

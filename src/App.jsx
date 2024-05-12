@@ -1,10 +1,17 @@
 import React from 'react'
-import Home from './pages/homepage/Home'
+
+import About from './pages/aboutUs/components/About'
 
 function App() {
   return (
     <div>
-      <Home/>
+      {/* <Home/> */}
+      {/* <Tour/> */}
+      {/* <Detail/> */}
+      {/* <Booking/> */}
+      <About/>
+
+
     </div>
   )
 }

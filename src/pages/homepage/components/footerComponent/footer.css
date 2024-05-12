@@ -1,5 +1,5 @@
 footer {
-    background-color: #333;
+    background-color: #373434;
     color: #fff;
     padding: 2rem 0;
     display: flex;
@@ -27,6 +27,7 @@ footer {
     list-style: none;
     padding: 0;
     margin-bottom: 0;
+    flex-direction: column;
   }
   
   footer nav a {
@@ -93,4 +94,7 @@ footer {
     footer .social-links a {
       margin-bottom: 0.5rem;
     }
+  }
+  footer h2{
+    padding: 30px;
   }

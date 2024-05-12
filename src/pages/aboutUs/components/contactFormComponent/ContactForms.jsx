@@ -1,3 +1,4 @@
+import Googlemap from "../googlemapComponent/Googlemap";
 import "./contactForm.css";
 
 import React, { useState } from 'react';
@@ -14,7 +15,12 @@ function  ContactForms() {
   };
 
   return (
-    <form className="contact-form" onSubmit={handleSubmit}>
+
+    <div className="contact-container">
+      <div className="google-map">
+        <Googlemap/>
+      </div>
+          <form className="contact-form" onSubmit={handleSubmit}>
       <label>
         Name:
         <input className="contact-input" type="text" value={name} onChange={(e) => setName(e.target.value)} />
@@ -33,6 +39,7 @@ function  ContactForms() {
       </label>
       <button className="contact-button" type="submit">Send Message</button>
     </form>
+    </div>
   );
 };
 
