@@ -1,0 +1,52 @@
+.package-details {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .package-title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .package-description {
+    margin: 16px 0;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+  }
+  
+  h2 {
+    margin: 32px 0 16px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  button {
+    display: block;
+    width: 25%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  

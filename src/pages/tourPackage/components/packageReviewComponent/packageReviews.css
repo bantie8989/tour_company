@@ -1,0 +1,55 @@
+.package-reviews {
+    margin: 2rem 0;
+  }
+  
+  .package-reviews__sort-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .package-reviews__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .package-reviews__item {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .package-reviews__rating {
+    width: 5rem;
+    height: 5rem;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+  }
+  
+  .package-reviews__content {
+    flex: 1;
+  }
+  
+  .package-reviews__title {
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .package-reviews__description {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .package-reviews__date {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #999;
+  }

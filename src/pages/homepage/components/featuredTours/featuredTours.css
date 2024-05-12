@@ -1,0 +1,22 @@
+.imageGallery {
+  margin-top: none;
+  margin-bottom: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageGallery .image-gallery-slide {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 10px;
+}
+.image-info {
+  position: relative;
+  margin-left: 50%;
+  background-color: white;
+  opacity: 2;
+  background: red; /* Add the desired background color here */
+}

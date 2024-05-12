@@ -1,0 +1,78 @@
+.topbar {
+
+    background-color: #1a1f38;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .topbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .topbar .logo {
+    height: 4rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .topbar nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .topbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .topbar nav ul li {
+    margin-right: 1rem;
+  }
+  
+  .topbar nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .topbar .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .topbar .search-bar form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    padding: 0.5rem;
+  }
+  
+  .topbar .search-bar input[type="text"] {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 0 1rem;
+    outline: none;
+  }
+  
+  .topbar .search-bar button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+  .logo_image{
+    height: 4rem;
+    border-radius: 50%;
+  }

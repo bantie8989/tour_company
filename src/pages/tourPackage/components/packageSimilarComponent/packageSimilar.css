@@ -1,0 +1,47 @@
+.package-similar {
+    margin: 2rem 0;
+  }
+  
+  .package-similar h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .package-similar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .package-similar li {
+    flex-basis: calc(33.333% - 2rem);
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .package-similar li:hover {
+    transform: scale(1.05);
+  }
+  
+  .package-similar img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .package-similar h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem;
+  }
+  
+  .package-similar p {
+    font-size: 0.9rem;
+    margin: 0 1rem;
+  }
