@@ -5,12 +5,12 @@ import ContactForms from "./contactFormComponent/ContactForms";
 import EmailSubscription from "./emailComponet/Email";
 function About() {
   return (
-    <div>
-      <Topbar />
-      <ContactForms />
-      <EmailSubscription />
+    <div className="about-us-container">
+      <Topbar className="topbar" />
+      <ContactForms className="contact-forms" />
+      <EmailSubscription className="email-subscription" />
 
-      <Footer />
+      <Footer className="footer" />
       {/* <SocialMedia/> */}
       {/* <Testimonial/> */}
       {/* <Privacy/> */}

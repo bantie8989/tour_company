@@ -6,6 +6,9 @@
     background-color: #0056b3;
     font: bolder;
     color: white;
+    height: 100%;
+    margin-top: none;
+    padding-top: none;
 }
 
 .contact-input,
@@ -30,7 +33,7 @@
 }
 
 .contact-button {
-    margin-top: 40px;
+    margin-top: 80px;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;

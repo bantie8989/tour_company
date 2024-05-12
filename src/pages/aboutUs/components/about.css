@@ -1,0 +1,22 @@
+
+
+.contact-forms {
+    /* Styles for the contact-forms component */
+}
+
+.email-subscription {
+    margin-top: 70px;
+    padding: 30px;
+    margin-bottom: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+    /* Styles for the email-subscription component */
+}
+
+.footer {
+    margin-top: 70px;
+    /* Styles for the footer component */
+}
+.about-us-container{
+background-color: darkblue;
+}
