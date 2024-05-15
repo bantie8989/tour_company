@@ -22,7 +22,7 @@ function Topbar() {
               <Link  className="link"  to="/about">About Us</Link>
             </li>
             <li>
-              <Link className="link"  to="/detail">Contact Us</Link>
+              <Link className="link"  to="/booking">Booking</Link>
             </li>
 
             {/* Add a link to the login page if the user is not logged in */}

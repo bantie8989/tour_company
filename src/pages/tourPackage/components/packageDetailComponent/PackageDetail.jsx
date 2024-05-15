@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./packageDetail.css";
 
 import React from "react";
@@ -42,7 +43,6 @@ const PackageDetail = () => {
 
   const handleBooking = () => {
     // Implement booking logic here
-    
   };
 
   const handleAddToWishlist = () => {
@@ -74,7 +74,9 @@ const PackageDetail = () => {
       <h2>Terms and Conditions</h2>
       <p>{termsAndConditions}</p>
       <h2>Price: ${price}</h2>
-      <button onClick={handleBooking}>Book Now</button>
+      <Link to={"/booking"}>
+        <button onClick={handleBooking}>Book Now</button>
+      </Link>
       <button onClick={handleAddToWishlist}>
         {wishlist ? "Remove from Wishlist" : "Add to Wishlist"}
       </button>

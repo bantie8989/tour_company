@@ -5,16 +5,16 @@ import PackageDetail from "./components/packageDetailComponent/PackageDetail.jsx
 import PackageBooking from "./components/packageBookingComponent/PackageBooking.jsx";
 import PackageSimilar from "./components/packageSimilarComponent/PackageSimilar.jsx";
 import PackageReviews from "./components/packageReviewComponent/PackageReview.jsx";
+import Footer from "../homepage/components/footerComponent/Footer.jsx";
 
 function Tour() {
   return (
     <div>
       <Topbar />
       <PackageList />
-      <PackageDetail/>
-      <PackageBooking/>
-      <PackageSimilar/>
       <PackageReviews/>
+      <Footer/>
+      
     </div>
   );
 }

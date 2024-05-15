@@ -4,9 +4,9 @@
   
   .package-reviews__sort-filter {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
+    justify-content:space-around ;
   }
   
   .package-reviews__list {
@@ -53,3 +53,24 @@
     font-size: 0.8rem;
     color: #999;
   }
+  .reviewsTitle{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: rgb(204, 182, 182);
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  .lable{
+    font-size: 2rem;
+
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+  }
+.selectContainer{
+  background-color: brown;
+
+}
+ 

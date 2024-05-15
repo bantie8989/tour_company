@@ -4,7 +4,6 @@ import packageDetail from "../packageDetailComponent/PackageDetail";
 import PackageDetail from "../packageDetailComponent/PackageDetail";
 import { Link } from "react-router-dom";
 
-
 const PackageList = () => {
   const [packages, setPackages] = useState([
     {
@@ -69,11 +68,9 @@ const PackageList = () => {
   const [filteredPackages, setFilteredPackages] = useState(packages);
   const [sortCriteria, setSortCriteria] = useState("price");
   // const [packageDetails, setPackageDetails] = useState<import("react").HtmlHTMLAttributes>(null);
-  
 
   // const handleDetails = (e) =>{
   //   setPackageDetails(packageDetail)
-    
 
   // };
 
@@ -99,25 +96,21 @@ const PackageList = () => {
     });
     setFilteredPackages(sortedPackages);
   };
-  const handleClick = (e) =>{
-    return(
-      console.log("hello")
-    )
-  }
 
   return (
     <div className="package-list">
       <div className="filter-container">
-        <label className="filter-label">Filter by destination:</label>
-        
+        <label className="filter-label">Filter by destination</label>
+
         <input
+          placeholder="search place..."
           type="text"
           className="filter-input"
           onChange={handleFilterChange}
         />
       </div>
       <div className="sort-container">
-        <label className="sort-label">Sort by:</label>
+        <label className="sort-label">Sort by</label>
         <select
           value={sortCriteria}
           onChange={handleSortChange}
@@ -142,7 +135,9 @@ const PackageList = () => {
               <p className="package-price">Price: ${pkg.price}</p>
               <p>Destination: {pkg.destination}</p>
               <p>Duration: {pkg.duration} days</p>{" "}
-              <button className="detail-button" onClick={handleClick}>package detail</button>
+              <Link to={"/detail"}>
+                <button className="detail-button">package detail</button>
+              </Link>
             </div>
           </li>
         ))}
