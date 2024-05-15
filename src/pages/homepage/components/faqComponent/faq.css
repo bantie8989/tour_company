@@ -3,10 +3,13 @@
     align-items: center;
     cursor: pointer;
     background-color: #6a1818;
+    margin: auto;
+    width: 50%;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
     transition: background-color 0.3s ease;
+    
   }
   
   .question:hover {
@@ -32,8 +35,36 @@
   }
   
   .answer {
+    background-color: #a76565;
+    margin: auto;
+    width: 50%;
     padding: 10px;
     border-radius: 5px;
-    background-color: #7f4b4b;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    color: white;
   }
+.faq-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all;
+
+  
+
+}

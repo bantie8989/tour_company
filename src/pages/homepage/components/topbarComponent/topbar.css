@@ -32,10 +32,23 @@
   .topbar nav ul li {
     margin-right: 1rem;
   }
+
   
-  .topbar nav a {
-    color: #fff;
+  .topbar nav ul li a {
+    color: #ffffff;
     text-decoration: none;
+  }
+  .topbar nav ul li a:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #cdbb17;
+    transition: width 0.3s;
+  }
+
+  .topbar nav ul li a:hover:after {
+    width: 100%;
   }
   
   .topbar .search-bar {

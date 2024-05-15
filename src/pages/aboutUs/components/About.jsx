@@ -11,11 +11,6 @@ function About() {
       <EmailSubscription className="email-subscription" />
 
       <Footer className="footer" />
-      {/* <SocialMedia/> */}
-      {/* <Testimonial/> */}
-      {/* <Privacy/> */}
-      {/* <Term/> */}
-      {/* <LiveChat/> */}
     </div>
   );
 }

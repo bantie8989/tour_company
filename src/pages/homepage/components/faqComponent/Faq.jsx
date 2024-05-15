@@ -14,7 +14,7 @@ function Faq() {
   return (
     <div className="bg-gray-100 py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-semibold text-center mb-12">
+        <h2 className="faq-title">
           Frequently Asked Questions
         </h2>
         <div className="flex flex-wrap -mx-3">
@@ -32,7 +32,7 @@ function Faq() {
               </button>
               {activeQuestion === 0 && (
                 <div className="answer">
-                  <p>Answer to question 1</p>
+                  <p className="answers">Answer to question 1</p>
                 </div>
               )}
               <button className="question" onClick={() => toggleQuestion(1)}>

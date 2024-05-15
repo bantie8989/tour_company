@@ -1,51 +1,51 @@
 import React from "react";
-import "./topbar.css";
+import {  Link } from 'react-router-dom';import "./topbar.css";
+
 
 function Topbar() {
+
   return (
     <header className="topbar">
       <div className="container">
-        <a to="/" className="logo">
-          <img src="public\assets\images\logo.jpg" className= "logo_image"alt="Tourism Management System" />
-        </a>
+        <Link to="/" className="logo">
+          <img src="public\assets\images\logo.jpg" className= "logo_image" alt="Tourism Management System" />
+        </Link>
         <nav>
           <ul>
             <li>
-              <a to="/">Home</a>
+              <Link className="link" to="/">Home</Link>
             </li>
             <li>
-              <a to="/tour-packages">Tour Packages</a>
+              <Link className="link"  to="/tour">Tour Packages</Link>
             </li>
             <li>
-              <a to="/about-us">About Us</a>
+              <Link  className="link"  to="/about">About Us</Link>
             </li>
             <li>
-              <a to="/contact-us">Contact Us</a>
+              <Link className="link"  to="/detail">Contact Us</Link>
             </li>
+
             {/* Add a link to the login page if the user is not logged in */}
             {!localStorage.getItem("token") && (
               <li>
-                <a to="/login">Login</a>
+                <Link to="/login">Login</Link>
               </li>
             )}
             {/* Add a link to the register page if the user is not logged in */}
             {!localStorage.getItem("token") && (
               <li>
-                <a to="/register">Register</a>
+                <Link to="/register">Register</Link>
               </li>
             )}
+
             {/* Add a link to the my bookings page if the user is logged in */}
             {localStorage.getItem("token") && (
               <li>
-                <a to="/my-bookings">My Bookings</a>
+                <Link to="/my-bookings">My Bookings</Link>
               </li>
             )}
             {/* Add a link to the admin dashboard page if the user is an administrator */}
-            {localStorage.getItem("isAdmin") === "true" && (
-              <li>
-                <a to="/admin-dashboard">Admin Dashboard</a>
-              </li>
-            )}
+      
             {/* Add a logout button if the user is logged in */}
             {localStorage.getItem("token") && (
               <li>
