@@ -4,6 +4,7 @@ import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg
 
 const ContactInfo = () => {
 return (
+    <div className="contact-info-container">
     <div className="contact-info">
         <h2 className="contact-info__title">Contact Information</h2>
         <ul className="contact-info__list">
@@ -21,7 +22,7 @@ return (
             </li>
         </ul>
     </div>
+    </div>
 );
 };
-
 export default ContactInfo;

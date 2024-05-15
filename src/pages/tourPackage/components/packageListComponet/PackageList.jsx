@@ -2,6 +2,7 @@ import "./packageList.css";
 import React, { useState } from "react";
 import packageDetail from "../packageDetailComponent/PackageDetail";
 import PackageDetail from "../packageDetailComponent/PackageDetail";
+import { Link } from "react-router-dom";
 
 
 const PackageList = () => {
@@ -98,6 +99,11 @@ const PackageList = () => {
     });
     setFilteredPackages(sortedPackages);
   };
+  const handleClick = (e) =>{
+    return(
+      console.log("hello")
+    )
+  }
 
   return (
     <div className="package-list">
@@ -136,7 +142,7 @@ const PackageList = () => {
               <p className="package-price">Price: ${pkg.price}</p>
               <p>Destination: {pkg.destination}</p>
               <p>Duration: {pkg.duration} days</p>{" "}
-              <button className="detail-button" >package detail</button>
+              <button className="detail-button" onClick={handleClick}>package detail</button>
             </div>
           </li>
         ))}

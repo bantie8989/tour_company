@@ -5,7 +5,7 @@ const testimonials= [
   {
     id: 1,
     name: 'John Doe',
-    image: 'https://via.placeholder.com/150',
+    image: 'https://www.youtube.com/watch?v=DQacCB9tDaw',
     quote: 'This tour was amazing! I had such a great time and the guide was so knowledgeable.'
   },
   {
