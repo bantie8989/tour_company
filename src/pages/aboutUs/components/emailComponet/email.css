@@ -2,28 +2,58 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0056b3;
+    background-color:rgb(62, 154, 62);
+    border-radius: 10px;
+    width: 50%;
+    
 }
 
 .email-label {
     margin-bottom: 10px;
     font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
 }
 
 .email-input {
     padding: 5px;
     margin-bottom: 10px;
     width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 15px;
 }
 
 .subscribe-button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ffffff;
+    color:rgb(62, 154, 62);;
     border: none;
     cursor: pointer;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: darkblue;
+
 }
 
 .subscribe-button:hover {
-    background-color: #0056b3;
+    background-color:rgb(78, 99, 78);
+    color: #ffffff;
+
+
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight:bolder;
+    padding: 10px;
+    
+}
+.grace{
+    margin: 10px;
+    font-size: 2rem;
 }

@@ -6,7 +6,7 @@ function Hero() {
     <section className="hero">
       <div className="container">
         <h1>Welcome guests</h1>
-        <p>
+        <p className="zoom">
           Discover the world with us and create unforgettable memories.
         </p>
         <button>Explore Now</button>

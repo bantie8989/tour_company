@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import './email.css';
+import React, { useState } from "react";
+import "./email.css";
 
 const EmailSubscription = () => {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
 
-const handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     // Form submission logic here
     console.log("Email submitted:", email);
@@ -28,24 +28,32 @@ const handleSubmit = (e) => {
     //     console.error('Error subscribing:', error);
     //     // Handle the error
     //   });
-};
+  };
 
-return (
+  return (
     <form onSubmit={handleSubmit} className="email-subscription">
-        <label htmlFor="email" className="email-label">Email:</label>
+      <p className="message">
+        <span className="grace">Thank you for choosen us</span>
+        leave your Email for updated news from our website
+      </p>
+      <div className="email-container">
+        <label htmlFor="email" className="email-label">
+          Your Email{" "}
+        </label>
         <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            className="email-input"
+          type="email"
+          id="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+          className="email-input"
         />
-        <button type="submit" className="subscribe-button">
-            Subscribe
-        </button>
+      </div>
+      <button type="submit" className="subscribe-button">
+        Subscribe
+      </button>
     </form>
-);
+  );
 };
 
 export default EmailSubscription;
