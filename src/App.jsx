@@ -22,7 +22,7 @@ function App() {
           
           <Route path="/login" element={<About />} />
           <Route path="/tour" element={<Tour/>} />
-
+{/* this page introduce the routing path for the differnt pages  */}
 
 
           
